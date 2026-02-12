@@ -20,3 +20,5 @@ D:\repos\EliteExplorerTool\obj\Debug\net8.0-windows\EliteExplorerTool.csproj.Ass
 D:\repos\EliteExplorerTool\obj\Debug\net8.0-windows\EliteExp.84855A74.Up2Date
 D:\repos\EliteExplorerTool\obj\Debug\net8.0-windows\EliteExplorerTool.Properties.Resources.resources
 D:\repos\EliteExplorerTool\bin\Debug\net8.0-windows\EliteExplorerTool.dll.config
+D:\repos\EliteExplorerTool\obj\Debug\net8.0-windows\EliteExplorerTool.sourcelink.json
+D:\repos\EliteExplorerTool\obj\Debug\net8.0-windows\EliteExplorerTool.SettingsForm.resources

@@ -58,5 +58,41 @@ namespace EliteExplorerTool.Properties {
                 this["VoiceEnabled"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string HiddenColumns {
+            get {
+                return ((string)(this["HiddenColumns"]));
+            }
+            set {
+                this["HiddenColumns"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string SpanshCsvPath {
+            get {
+                return ((string)(this["SpanshCsvPath"]));
+            }
+            set {
+                this["SpanshCsvPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int SpanshProgress {
+            get {
+                return ((int)(this["SpanshProgress"]));
+            }
+            set {
+                this["SpanshProgress"] = value;
+            }
+        }
     }
 }
