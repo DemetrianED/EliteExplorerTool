@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vspUXKAFnCw=",
+  "success": true,
+  "projectFilePath": "D:\\repos\\EliteExplorerTool\\EliteExplorerTool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ale\\.nuget\\packages\\system.speech\\10.0.3\\system.speech.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

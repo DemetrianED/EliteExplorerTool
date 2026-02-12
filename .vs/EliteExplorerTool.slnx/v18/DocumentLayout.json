@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\repos\\EliteExplorerTool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{412A3B92-6BAA-4C4F-88F7-E153C6213109}|EliteExplorerTool.csproj|d:\\repos\\eliteexplorertool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412A3B92-6BAA-4C4F-88F7-E153C6213109}|EliteExplorerTool.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412A3B92-6BAA-4C4F-88F7-E153C6213109}|EliteExplorerTool.csproj|d:\\repos\\eliteexplorertool\\elitelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412A3B92-6BAA-4C4F-88F7-E153C6213109}|EliteExplorerTool.csproj|solutionrelative:elitelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412A3B92-6BAA-4C4F-88F7-E153C6213109}|EliteExplorerTool.csproj|d:\\repos\\eliteexplorertool\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{412A3B92-6BAA-4C4F-88F7-E153C6213109}|EliteExplorerTool.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412A3B92-6BAA-4C4F-88F7-E153C6213109}|EliteExplorerTool.csproj|d:\\repos\\eliteexplorertool\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412A3B92-6BAA-4C4F-88F7-E153C6213109}|EliteExplorerTool.csproj|solutionrelative:settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412A3B92-6BAA-4C4F-88F7-E153C6213109}|EliteExplorerTool.csproj|d:\\repos\\eliteexplorertool\\edsmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412A3B92-6BAA-4C4F-88F7-E153C6213109}|EliteExplorerTool.csproj|solutionrelative:edsmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412A3B92-6BAA-4C4F-88F7-E153C6213109}|EliteExplorerTool.csproj|d:\\repos\\eliteexplorertool\\darktabcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412A3B92-6BAA-4C4F-88F7-E153C6213109}|EliteExplorerTool.csproj|solutionrelative:darktabcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412A3B92-6BAA-4C4F-88F7-E153C6213109}|EliteExplorerTool.csproj|d:\\repos\\eliteexplorertool\\eliteexplorertool.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{412A3B92-6BAA-4C4F-88F7-E153C6213109}|EliteExplorerTool.csproj|solutionrelative:eliteexplorertool.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412A3B92-6BAA-4C4F-88F7-E153C6213109}|EliteExplorerTool.csproj|d:\\repos\\eliteexplorertool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{412A3B92-6BAA-4C4F-88F7-E153C6213109}|EliteExplorerTool.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DarkTabControl.cs",
+              "DocumentMoniker": "D:\\repos\\EliteExplorerTool\\DarkTabControl.cs",
+              "RelativeDocumentMoniker": "DarkTabControl.cs",
+              "ToolTip": "D:\\repos\\EliteExplorerTool\\DarkTabControl.cs",
+              "RelativeToolTip": "DarkTabControl.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwCIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T22:59:36.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EdsmService.cs",
+              "DocumentMoniker": "D:\\repos\\EliteExplorerTool\\EdsmService.cs",
+              "RelativeDocumentMoniker": "EdsmService.cs",
+              "ToolTip": "D:\\repos\\EliteExplorerTool\\EdsmService.cs",
+              "RelativeToolTip": "EdsmService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T22:47:04.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SettingsForm.cs",
+              "DocumentMoniker": "D:\\repos\\EliteExplorerTool\\SettingsForm.cs",
+              "RelativeDocumentMoniker": "SettingsForm.cs",
+              "ToolTip": "D:\\repos\\EliteExplorerTool\\SettingsForm.cs",
+              "RelativeToolTip": "SettingsForm.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAA3wIsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T22:32:40.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EliteLogic.cs",
+              "DocumentMoniker": "D:\\repos\\EliteExplorerTool\\EliteLogic.cs",
+              "RelativeDocumentMoniker": "EliteLogic.cs",
+              "ToolTip": "D:\\repos\\EliteExplorerTool\\EliteLogic.cs",
+              "RelativeToolTip": "EliteLogic.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAkwGoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T22:28:43.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "D:\\repos\\EliteExplorerTool\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Properties\\Resources.resx",
+              "ToolTip": "D:\\repos\\EliteExplorerTool\\Properties\\Resources.resx",
+              "RelativeToolTip": "Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-02-11T22:00:46.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EliteExplorerTool",
+              "DocumentMoniker": "D:\\repos\\EliteExplorerTool\\EliteExplorerTool.csproj",
+              "RelativeDocumentMoniker": "EliteExplorerTool.csproj",
+              "ToolTip": "D:\\repos\\EliteExplorerTool\\EliteExplorerTool.csproj",
+              "RelativeToolTip": "EliteExplorerTool.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-11T21:59:48.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\repos\\EliteExplorerTool\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\repos\\EliteExplorerTool\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T14:44:26.589Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\repos\\EliteExplorerTool\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\repos\\EliteExplorerTool\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABABAAAAAAAAAAArwCwBAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T14:45:16.215Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
