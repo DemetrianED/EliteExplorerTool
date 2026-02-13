@@ -94,5 +94,41 @@ namespace EliteExplorerTool.Properties {
                 this["SpanshProgress"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool OverlayEnabled {
+            get {
+                return ((bool)(this["OverlayEnabled"]));
+            }
+            set {
+                this["OverlayEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("100, 100")]
+        public global::System.Drawing.Point OverlayLocation {
+            get {
+                return ((global::System.Drawing.Point)(this["OverlayLocation"]));
+            }
+            set {
+                this["OverlayLocation"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool OverlayTransparent {
+            get {
+                return ((bool)(this["OverlayTransparent"]));
+            }
+            set {
+                this["OverlayTransparent"] = value;
+            }
+        }
     }
 }

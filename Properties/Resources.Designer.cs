@@ -163,6 +163,16 @@ namespace EliteExplorerTool.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconScoopable {
+            get {
+                object obj = ResourceManager.GetObject("iconScoopable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconSearch {
             get {
                 object obj = ResourceManager.GetObject("iconSearch", resourceCulture);

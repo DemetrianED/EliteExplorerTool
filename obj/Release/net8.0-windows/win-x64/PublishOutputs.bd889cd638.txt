@@ -1,0 +1,8 @@
+D:\repos\EliteExplorerTool.pdb
+D:\repos\EliteExplorerTool.dll.config
+D:\repos\D3DCompiler_47_cor3.dll
+D:\repos\PenImc_cor3.dll
+D:\repos\PresentationNative_cor3.dll
+D:\repos\vcruntime140_cor3.dll
+D:\repos\wpfgfx_cor3.dll
+D:\repos\EliteExplorerTool.exe

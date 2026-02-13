@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EliteExplorerTool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+478046d3ac58b21ecc1999a4ccf7c7eed75db598")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a608a6e1dc8d2b1de24731dd9a25676996375bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("EliteExplorerTool")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EliteExplorerTool")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

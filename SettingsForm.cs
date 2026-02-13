@@ -10,6 +10,7 @@ namespace EliteExplorerTool
     {
         // Controles Existentes
         private CheckBox chkVoice;
+        private CheckBox chkOverlay; // <--- AGREGADO: Faltaba esta declaración
         private TextBox txtCmdr;
         private TextBox txtApiKey;
         private Button btnSave;
@@ -76,6 +77,15 @@ namespace EliteExplorerTool
             chkVoice.ForeColor = Color.White;
             tabGeneral.Controls.Add(chkVoice);
 
+            // Checkbox del Overlay
+            chkOverlay = new CheckBox();
+            chkOverlay.Text = "Enable In-Game Overlay";
+            chkOverlay.Font = new Font("Arial", 10);
+            chkOverlay.Location = new Point(20, 60);
+            chkOverlay.AutoSize = true;
+            chkOverlay.ForeColor = Color.White;
+            tabGeneral.Controls.Add(chkOverlay);
+
             // --- PESTAÑA 2: EDSM ---
             TabPage tabEdsm = new TabPage("EDSM / API");
             tabEdsm.BackColor = Color.FromArgb(40, 40, 45);
@@ -135,7 +145,7 @@ namespace EliteExplorerTool
             panelColumns.WrapContents = false;
             tabCols.Controls.Add(panelColumns);
 
-            // --- NUEVA PESTAÑA 4: SPANSH ROUTE ---
+            // --- PESTAÑA 4: SPANSH ROUTE ---
             TabPage tabSpansh = new TabPage("Spansh Route");
             tabSpansh.BackColor = Color.FromArgb(40, 40, 45);
             tabs.TabPages.Add(tabSpansh);
@@ -150,7 +160,7 @@ namespace EliteExplorerTool
             txtSpanshPath = new TextBox();
             txtSpanshPath.Location = new Point(20, 55);
             txtSpanshPath.Width = 340;
-            txtSpanshPath.ReadOnly = true; // Solo lectura, usar botón
+            txtSpanshPath.ReadOnly = true;
             tabSpansh.Controls.Add(txtSpanshPath);
 
             btnBrowseSpansh = new Button();
@@ -170,20 +180,17 @@ namespace EliteExplorerTool
             lblSpanshInfo.ForeColor = Color.LightGray;
             tabSpansh.Controls.Add(lblSpanshInfo);
 
-            // --- BOTÓN BORRAR CSV (En tabSpansh) ---
             Button btnClearSpansh = new Button();
             btnClearSpansh.Text = "Clear Route";
-            btnClearSpansh.Location = new Point(20, 130); // Debajo del label informativo
+            btnClearSpansh.Location = new Point(20, 130);
             btnClearSpansh.Size = new Size(120, 30);
             btnClearSpansh.BackColor = Color.Maroon;
             btnClearSpansh.ForeColor = Color.White;
             btnClearSpansh.FlatStyle = FlatStyle.Flat;
             btnClearSpansh.Click += (s, e) => {
                 txtSpanshPath.Text = "";
-                // Opcional: Avisar que debe guardar para aplicar
             };
             tabSpansh.Controls.Add(btnClearSpansh);
-
 
             // --- BOTONES INFERIORES ---
             btnSave = new Button();
@@ -210,7 +217,10 @@ namespace EliteExplorerTool
         private void LoadSettings()
         {
             // 1. Cargar General / EDSM
+            chkOverlay.Checked = Properties.Settings.Default.OverlayEnabled; // <--- Asegúrate de crear esta variable en Properties
             chkVoice.Checked = Properties.Settings.Default.VoiceEnabled;
+
+            // Usamos EdsmCmdr porque es lo que ya tienes configurado
             txtCmdr.Text = Properties.Settings.Default.EdsmCmdr;
             txtApiKey.Text = Properties.Settings.Default.EdsmApiKey;
 
@@ -259,16 +269,16 @@ namespace EliteExplorerTool
 
         private void BtnSave_Click(object sender, EventArgs e)
         {
-            // 1. Guardar General / EDSM
+            // Guardar configuración
+            Properties.Settings.Default.OverlayEnabled = chkOverlay.Checked;
             Properties.Settings.Default.VoiceEnabled = chkVoice.Checked;
+
+            // Usamos EdsmCmdr
             Properties.Settings.Default.EdsmCmdr = txtCmdr.Text;
             Properties.Settings.Default.EdsmApiKey = txtApiKey.Text;
 
-            // 2. Guardar Spansh Path
-            // Si cambió el archivo, podríamos resetear el progreso, pero por ahora solo guardamos la ruta.
             Properties.Settings.Default.SpanshCsvPath = txtSpanshPath.Text;
 
-            // 3. Guardar Columnas
             List<string> hidden = new List<string>();
             foreach (Control c in panelColumns.Controls)
             {
